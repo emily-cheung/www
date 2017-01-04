@@ -51,36 +51,36 @@ active: registrars
 			<fieldset>
 			<div class="row">
 				<div class="col-sm-6 form-group has-feedback">
-					<input type="text" class="form-control" id="firstname" placeholder="First name" name="entry.1410965494" data-error="Please enter your first name." required>
+					<input type="text" class="form-control" id="firstname" placeholder="First name" aria-label="First name" name="entry.1410965494" data-error="Please enter your first name." required>
 					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 					<div class="help-block with-errors"></div>
 				</div>
 				<div class="col-sm-6 form-group has-feedback">
-					<input type="text" class="form-control" id="lastname" placeholder="Last name" name="entry.1256265228" data-error="Please enter your last name." required>
+					<input type="text" class="form-control" id="lastname" placeholder="Last name" aria-label="Last name" name="entry.1256265228" data-error="Please enter your last name." required>
 					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 					<div class="help-block with-errors"></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6 form-group has-feedback">
-					<input type="email" class="form-control" id="email" placeholder="Email" name="entry.148246978" data-error="Please enter a valid email address." required>
+					<input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email address" name="entry.148246978" data-error="Please enter a valid email address." required>
 					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 					<div class="help-block with-errors"></div>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" name="entry.610931773" data-error="Please enter a telephone number.">
+					<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone #" aria-label="Telephone number" name="entry.610931773" data-error="Please enter a telephone number.">
 					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 					<div class="help-block with-errors"></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6 form-group has-feedback">
-					<input type="text" class="form-control" id="companyName" placeholder="Company name" name="entry.386020707" data-error="Please enter your company name." required>
+					<input type="text" class="form-control" id="companyName" placeholder="Company name" aria-label="Company name" name="entry.386020707" data-error="Please enter your company name." required>
 					<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
 					<div class="help-block with-errors"></div>
 				</div>
 				<div class="col-sm-6 form-group">
-					<input type="text" class="form-control" id="title" placeholder="Title" name="entry.281552723">
+					<input type="text" class="form-control" id="title" placeholder="Title" aria-label="Title" name="entry.281552723">
 				</div>
 			</div>
 			</fieldset>
@@ -103,9 +103,9 @@ active: registrars
 			</div>
 		</div>
 
-		<p>We have partnered with Afilias to provide .eco registry services. Existing ICANN accredited registrars who are already a partner of Afilias may onboard .eco directly through their account in Afilias' Online Registrar Management System (ORMS) beginning in December 2016.</p>
+		<p>We have partnered with Afilias to provide .eco regisry services. Existing ICANN accredited registrars who are already connected with Afilias may onboard directly through their account in Afilias' Online Registrar Management System (ORMS).</p>
 
-		<p>Questions? Email us at <span class="email-link" data-name="sales" data-domain="home.eco"></span></p>
+		<p>If you don't have access to the Afilias ORMS or have questions about onboarding, please email us at <span class="email-link" data-name="sales" data-domain="home.eco"></span>.</p>
 	</div>
 </div>
 
@@ -115,30 +115,32 @@ active: registrars
 	<div class="container">
 		<h2>Registry policies</h2>
 
-		<div class="row">
-		<div class="col-sm-6 col-md-4">
-			<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/eligibility-eco-profile-policies.pdf">
-				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-				<p>Eligibility</p>
-			</a>
+		<p>The following policies set out the .eco purpose and principles.</p>
+
+		<div class="row button-panel">
+			<div class="col-sm-6 col-md-4">
+				<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/eligibility-eco-profile-policies.pdf">
+					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					<p>Eligibility</p>
+				</a>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/launch-policies.pdf">
+					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					<p>Launch Policies</p>
+				</a>
+			</div>
+
+			<div class="col-sm-6 col-md-4">
+				<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/eco-Registry-Policies_v1.2_20161228.pdf">
+					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					<p>Complete Registry Policies</p>
+				</a>
+			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
-			<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/launch-policies.pdf">
-				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-				<p>Launch Policies</p>
-			</a>
-		</div>
-
-		<div class="col-sm-6 col-md-4">
-			<a class="btn btn-default registrar-resource" role="button" href="/assets/policies/eco-Registry-Policies_v1.2_20161228.pdf">
-				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-				<p>Complete Registry Policies</p>
-			</a>
-		</div>
-		</div>
-
-		<!-- <p>See all <a href="/policies/">.eco Registry Policies</a>.</p> -->
+		<p>See all <a href="/policies/">.eco Registry Policies</a>.</p>
 	</div>
 </div>
 
@@ -148,6 +150,7 @@ active: registrars
 
 		<p>Get more information on the .eco System along with marketing materials to help promote .eco to your customers.</p>
 
+		<div class="row button-panel">
 		<div class="col-sm-6 col-md-4">
 			<a class="btn btn-default registrar-resource" role="button" href="/assets/Eco_Overview_20161221.pdf">
 				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
@@ -183,6 +186,7 @@ active: registrars
 				<i class="fa fa-file-video-o" aria-hidden="true"></i>
 				<p>.eco Introductory video</p>
 			</a>
+		</div>
 		</div>
 	</div>
 </div>
